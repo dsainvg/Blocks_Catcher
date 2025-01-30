@@ -34,10 +34,10 @@ function updateBasket(a) {
 document.addEventListener('keydown', event => {
     if ((event.key === 'ArrowLeft')||(event.key === "A")||(event.key === "a")) {
       
-        updateBasket(-10);
+        updateBasket(-15);
     }
     if ((event.key === 'ArrowRight')||(event.key === "D")||(event.key === "d")) {
-        updateBasket(10);
+        updateBasket(15);
         
     }
 });
